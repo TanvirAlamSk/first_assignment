@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* header part */
 .heading{
     height:750px;
     width: 100%;
@@ -19,11 +20,11 @@ body{
 .header h1{
     font-size: 50px;
 }
-.header p{
+ p{
     font-size: 20px;
     padding: 0 25%;
 }
-.header button{
+button{
     font-size: 18px;
     padding: 13px 22px;
     font-weight: 600;
@@ -31,4 +32,56 @@ body{
     border-radius: 5px;
     background-color: rgb(197, 55, 55);
     color: white;
+}
+
+/* donate part */
+
+.donate{
+    text-align: center ;
+}
+.donate h1{
+    font-size: 45px;
+}
+.amount{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: center;
+}
+.taka{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+    background-color: rgb(237, 237, 237);
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+.taka2{
+    border:2px solid rgb(222, 70, 70) ;
+    background-color: rgb(232, 189, 189);
+}
+input{
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 250px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.unnecessary{
+    margin-bottom: 500px;
 }
