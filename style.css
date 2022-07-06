@@ -119,26 +119,48 @@ button{
 .education{
     background-color: rgb(247, 240, 231);
 }
-/* footer start */
-.footer{
+/* community part */
+.community{
+    display: flex;
+    width: 100%;
     text-align: center;
+    background-image:linear-gradient(rgb(211, 138, 2),rgb(178, 48, 26)) ;
+}
+.community div{
+    width: 50%;
+    margin: auto;
+}
+.community .describe h1{
+    font-size: 40px;
+    font-weight: 600;
     color: white;
-    background-color: black;
-    padding: 20px 0;
 }
-.footer h2{
-    text-align: center;
-    font-weight: 700;
-    font-size: 30px;
-    color: brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+.community .describe p{
+    font-size: 20px;
 }
-
-.footer p{
-    font-size: 15px;
+.community .photo img{
+    height: 200px;
+    width: 300px;
+    padding: 5px 0px 5px 30px;
+    margin: auto;
+    width: 50%;
+} 
+.community .photo{
+    position: relative;
+    top:0;
+    left:0;
+    padding: 0 0 0 10px;
 }
-
+.community .photo .image1{ 
+    position:absolute;
+    top:0;
+    left:0;
+}
+.community .photo .image2{
+    position: relative;
+    top:30px;
+    left: 30px;
+}  
 /* subscrib-part */
 .subscrib-part{
     text-align: center;
@@ -178,8 +200,31 @@ form{
     border-radius: 0 5px 5px 0;
     }
 
+/* footer start */
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+}
+.footer h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.footer p{
+    font-size: 15px;
+}
 
 
 
 
-
+/* img{
+    height: 300px;
+    width: 400px;
+    display: block;
+} */
